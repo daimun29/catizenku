@@ -8,7 +8,7 @@ logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.INFO)
 # Perintah /start untuk memulai game
 async def start(update: Update, context: CallbackContext):
     user = update.effective_user
-    web_app_url = "https://example.com/catizen-game"  # Ganti dengan URL game mini apps Anda
+    web_app_url = "https://t.me/catizenbot"  # Ganti dengan URL game mini apps Anda
 
     # Kirim tombol untuk membuka mini apps
     keyboard = [[
@@ -33,7 +33,7 @@ async def handle_callback(update: Update, context: CallbackContext):
 
 # Fungsi utama
 def main():
-    TOKEN = "7690148280:AAGkcB7_Pdz9fKyi9MHkTFFHSDwg6xl5B3s
+    TOKEN = "7690148280:AAGkcB7_Pdz9fKyi9MHkTFFHSDwg6xl5B3s"
     
     # Menggunakan Application di versi terbaru
     application = Application.builder().token(TOKEN).build()
